@@ -18,7 +18,7 @@ To install and run this app locally, you need to have Node.js, Python, and pip i
 First, clone the repository from GitHub using the following command:
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/amansgith/MedAICare.git)
+git clone https://github.com/amansgith/MedAICare.git
 ```
 
 
