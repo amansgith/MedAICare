@@ -1,4 +1,4 @@
-# React + Flask App
+# MedAICare Web Application
 
 This is a web application that uses React for the frontend and Flask for the backend. It allows users to find Nearby hospitals, Detect Diseases through Machine learning, Talk with the chatbot for health recommendation 
 
@@ -19,7 +19,7 @@ First, clone the repository from GitHub using the following command:
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-
+```
 
 
 ### Setup the Project
@@ -29,24 +29,28 @@ git clone https://github.com/your-username/your-repo-name.git
 cd Frontend
 npm install  
 npm start
-
+```
 
 ### Backend
 
 ```bash
 cd ./Backend
 pip install virtualenv
-
+```
+# paste this command
+```bash
+virtualenv env
+```
 # now paste this command
 ```bash
 .\env\Scripts\activate.ps1
-
+```
 ### now run 
 
 ```bash
 pip install requirements.txt
-
+```
 ```bash
 python app.py
-
+```
 
