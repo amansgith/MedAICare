@@ -4,10 +4,6 @@ import "../styles/disease.css";
 import "../styles/loading.css";
 import Modal from "react-bootstrap/Modal"; // Import the modal component from react-bootstrap
 import Button from "react-bootstrap/Button";
-// import pexels1 from "../images/peakpx.jpg";
-// import pexels2 from "../images/pexels.jpg";
-// import pexels4 from "../images/pexels.jpg";
-// import pexels3 from "../images/banner_1.jpg";
 import axios from "axios"; 
 import Footer from "./footer";
 
@@ -72,50 +68,6 @@ function Disease() {
   };
 
   return (
-    // <div style={{ height: "100vh" }}>
-    //   <TopNav />
-    //   <div aria-label="Detection Section" style={{ zIndex: "auto" }}>
-    //     <h1 className="font-bold text-xl sm:text-2xl lg:text-5xl py-4 text-cyan-700 heading">
-    //       Detect Tumor or Pneumonia
-    //     </h1>
-    //   </div>
-    //   {/* <div className="w-full flex m-auto pt-11 pb-11" style={{ height: "70%" }}>
-        
-    //   </div> */}
-    //   <div className="w-full flex m-auto justify-center">
-    //     <form onSubmit={handleSubmit}>
-    //       <label htmlFor="file">Upload an image:</label>
-    //       <input type="file" id="file" name="file" accept="image/*" onChange={handleImageChange} />
-    //       <label htmlFor="model">Select a model:</label>
-    //       <select id="model" name="model" value={model} onChange={handleModelChange}>
-    //         <option value="tumor">Brain Tumor</option>
-    //         <option value="pneumonia">Pneumonia</option>
-    //       </select>
-    //       <button type="submit" name="file"disabled={loading}>Predict</button>
-    //     </form>
-    //     {loading && (
-    //       <div
-    //         style={{
-    //           position: "fixed",
-    //           top: "50%",
-    //           left: "50%",
-    //           transform: "translate(-50%, -50%)",
-    //           zIndex: "9999",
-    //         }}
-    //       >
-    //         <div className="loader"></div>
-    //       </div>
-    //     )}
-    //     {result && (
-    //       <div className="result">
-    //       {model === "tumor" && <p>The result for tumor is: {result.result}</p>}
-    //       {model === "pneumonia" && <p>The result for pneumonia is: {result.result}</p>}
-    //     </div>
-    //     )}
-        
-    //   </div>
-    //   <Footer/>
-    // </div>
 
     <div style={{ height: "100vh" }}>
       <TopNav />
@@ -187,7 +139,6 @@ function Disease() {
             </Modal.Footer>
           </Modal>
         )}
-          {/* <p className="text-white text-4xl font-bold">Upload Image</p>  */}
         </div>
       </div>
       
