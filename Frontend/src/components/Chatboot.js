@@ -1,0 +1,36 @@
+import React, { useEffect } from 'react'
+ 
+const Chatboot = () => {
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js'
+    script.async = true
+    document.body.appendChild(script)
+ 
+    script.onload = () => {
+      window.botpressWebChat.init({
+      composerPlaceholder: "Ask you queries",
+      botConversationDescription: "Your Personal Medical Assistant",
+      botId: "32c83172-e174-4817-b366-af2f2959f656",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      messagingUrl: "https://messaging.botpress.cloud",
+      clientId: "32c83172-e174-4817-b366-af2f2959f656",
+      webhookId: "049eda41-164f-4fbb-9e88-7a6604828f62",
+      lazySocket: true,
+      themeName: "prism",
+      botName: "MedicalAid",
+      avatarUrl: "data:image/png;base64,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",
+      stylesheet: "https://webchat-styler-css.botpress.app/prod/4e59fdc7-f265-4cc2-9b2b-da9522599a07/v81154/style.css",
+      frontendVersion: "v1",
+      useSessionStorage: true,
+      enableConversationDeletion: true,
+      theme: "prism",
+      themeColor: "#2563eb"
+      })
+    }
+  }, [])
+ 
+  return <div id="webchat" />
+}
+ 
+export default Chatboot

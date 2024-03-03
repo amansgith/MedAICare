@@ -7,9 +7,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hospital from './components/Hospital';
 import Disease from './components/Disease';
 import Contact from './components/Contact';
-import Chatbot from './components/Chatbot';
+// import Chatbot from './components/Chatbot';
+import Chatboot from './components/Chatboot';
 import Startuppage from "./pages/StartUpPage/startuppage";
-import { Chat } from '@mui/icons-material';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Chat } from '@mui/icons-material';
 
 
 ReactDOM.render(
@@ -20,7 +22,7 @@ ReactDOM.render(
         <Route path="/personal" element={<Personal/>} />
         <Route path="/hospital" element={<Hospital/>} />
         <Route path="/disease" element={<Disease/>} />
-        <Route path="/chatbot" element={<Chatbot/>} />
+        <Route path="/chatbot" element={<Chatboot/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/login" element={<Startuppage/>} />
         <Route path="/register" element={<Startuppage/>} />

@@ -6,9 +6,7 @@ from keras.models import load_model
 import numpy as np
 from PIL import Image
 import io
-import openai
-# import string
-# import os
+# import openai
 
 
 app = Flask(__name__)
@@ -21,9 +19,7 @@ pneumonia_model = load_model('keras_model2.h5')
 
 # Function to preprocess and predict tumor
 def detect_tumor(img):
-    # Preprocess the image (you will need to implement this)
-    # Example:
-    # image = preprocess_image(image)
+   
     img = Image.open(io.BytesIO(img))
     img = img.resize((224, 224))
     img = np.array(img)
@@ -95,7 +91,7 @@ def predict():
             # else:
             #     result = "Tumor not detected"
             # # print("Result:", result) 
-            # print(result)
+            print(result)
             return jsonify({"result": result})
         except Exception as e:
             print(e)

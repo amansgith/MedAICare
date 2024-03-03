@@ -44,7 +44,7 @@ const Services = () => {
           <div className='md:w-4/5 mx-[20px]'>
             <h2 className='text-4xl text-neutral-500 md:w-full'>Talk to ChatBot</h2>
             <p className='md:w-full txt-sm text-neutral-400 mb-8'>LoremLorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem Ipsum Generator. More questionsReference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-            <Link to ="/chatbot">
+            <Link to ="https://mediafiles.botpress.cloud/32c83172-e174-4817-b366-af2f2959f656/webchat/bot.html">
             <button className='bg-green-400 w-32 md:w-[200px] rounded-full font-medium py-3 text-black hover:shadow-xl hover:bg-green-600 outline-none focus:outline-none'>Let's Chat</button></Link>
           </div>
         </div>

@@ -3,6 +3,7 @@ import Featured from "./components/Featured";
 import TopNav from "./components/TopNav";
 import Footer from "./components/footer";
 import Pricing from "./components/Pricing";
+import Chatboot from "./components/Chatboot";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services/>
       <Pricing/>
       <Footer/>
+      <Chatboot />
     </div>
   );
 }
