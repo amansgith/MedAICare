@@ -6,6 +6,7 @@ This is a web application that uses React for the frontend and Flask for the bac
 
 - List the main features of your app here
 - Patient Centric App
+- Find nearby Hospitals with Google Maps
 - Disease deteection with 94% and above accuracy
 - Talk with the chatbot which will give heath advises strictly based on Doctor's recommendation and experiences.
 
@@ -53,4 +54,4 @@ pip install requirements.txt
 ```bash
 python app.py
 ```
-
+### Cheers! Now you are ready to use the app!!
