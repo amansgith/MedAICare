@@ -2,6 +2,9 @@
 
 This is a web application that uses React for the frontend and Flask for the backend. It allows users to find Nearby hospitals, Detect Diseases through Machine learning, Talk with the chatbot for health recommendation 
 
+FrontEnd- Reactjs, JavaScript
+Backend- Python, Flask
+
 ## Features
 
 - List the main features of your app here
