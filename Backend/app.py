@@ -15,8 +15,6 @@ CORS(app)
 # Load the brain tumor detection model
 tumor_model = load_model('keras_model.h5')
 
-pneumonia_model = load_model('keras_model2.h5')
-
 # Function to preprocess and predict tumor
 def detect_tumor(img):
    
